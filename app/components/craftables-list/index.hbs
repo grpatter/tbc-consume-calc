@@ -24,22 +24,4 @@
   </ul>
   </div>
 </div>
-<div class="card text-white bg-dark mb-3" style="width: 25rem;">
-  <div class="card-body">
-    <h5 class="card-title">Classic Consumes</h5>
-              <ul class="list-group mt-2">
-    {{#each this.rows key="item.id" as |row index|}}
-    <CraftablesList::Row
-      @index={{index}}
-      @item={{row.item}}
-      @amount={{row.amount}}
-      @hidden={{row.hidden}}
-      @input={{this.isInputMode}}
-      @onInputAmount={{fn this.setAmount row}}
-      @onChangeVisibility={{fn this.setVisibility row}}
-    />
-    {{/each}}
-  </ul>
-  </div>
-</div>
 

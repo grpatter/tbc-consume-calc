@@ -10,6 +10,7 @@ export default {
   container: new Source('Container'),
   drop: new Source('Drop'),
   enchanting: new Source('Enchanting'),
+  engineering: new Source('Engineering'),
   firstaid: new Source('First Aid'),
   fishing: new Source('Fishing'),
   herbalism: new Source('Herbalism'),

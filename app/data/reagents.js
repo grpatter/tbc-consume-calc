@@ -10,10 +10,19 @@ export class Reagent {
 
 export default {
   //tbc starts here --
+
+  primalMana: new Reagent(22457, 'Primal Mana', sources.drop),
+  primalFire: new Reagent(21884, 'Primal Fire', sources.drop),
+  primalWater: new Reagent(21885, 'Primal Water', sources.drop),
+  primalShadow: new Reagent(22456, 'Primal Shadow', sources.drop),
+  primalEarth: new Reagent(22452, 'Primal Earth', sources.drop),
+  primalLife: new Reagent(21886, 'Primal Life', sources.drop),
+  primalAir: new Reagent(22451, 'Primal Air', sources.drop),
   imbuedVial: new Reagent(18256, 'Imbued Vial', sources.vendor),
   goldenbarkApple: new Reagent(4539, 'Goldenbark Apple', sources.vendor),
   soothingSpices: new Reagent(3713, 'Soothing Spices', sources.vendor),
   hotSpices: new Reagent(2692, 'Hot Spices', sources.vendor),
+  felIronCasing: new Reagent(23782, 'Fel Iron Casing', sources.engineering),
 
   terocone: new Reagent(22789, 'Terocone', sources.herbalism),
   felweed: new Reagent(22785, 'Felweed', sources.herbalism),

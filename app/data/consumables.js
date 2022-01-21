@@ -203,7 +203,48 @@ export default {
     { reagent: reagents.netherbloom, amount: 1 },
     { reagent: reagents.imbuedVial, amount: 1 }
   ]),
-  // classic starts here --
+
+  arcaneCauldron: new Consumable(32839, 'Cauldron of Major Arcane Protection', sources.alchemy, [
+    { reagent: reagents.felIronCasing, amount: 1 },
+    { reagent: reagents.primalMana, amount: 2 },
+    { reagent: reagents.manaThistle, amount: 7 }
+  ]),
+  fireCauldron: new Consumable(41500, 'Cauldron of Major Fire Protection', sources.alchemy, [
+    { reagent: reagents.felIronCasing, amount: 1 },
+    { reagent: reagents.primalFire, amount: 2 },
+    { reagent: reagents.manaThistle, amount: 7 }
+  ]),
+  frostCauldron: new Consumable(32850, 'Cauldron of Major Frost Protection', sources.alchemy, [
+    { reagent: reagents.felIronCasing, amount: 1 },
+    { reagent: reagents.primalWater, amount: 2 },
+    { reagent: reagents.manaThistle, amount: 7 }
+  ]),
+  natureCauldron: new Consumable(32851, 'Cauldron of Major Nature Protection', sources.alchemy, [
+    { reagent: reagents.felIronCasing, amount: 1 },
+    { reagent: reagents.primalLife, amount: 2 },
+    { reagent: reagents.manaThistle, amount: 7 }
+  ]),
+  shadowCauldron: new Consumable(32852, 'Cauldron of Major Shadow Protection', sources.alchemy, [
+    { reagent: reagents.felIronCasing, amount: 1 },
+    { reagent: reagents.primalShadow, amount: 2 },
+    { reagent: reagents.manaThistle, amount: 7 }
+  ]),  
+  SPACER_MISC: new Consumable(0, '-- -- Misc Common Consumes -- --', sources.alchemy, [
+    {  },
+  ]),
+  SPACER_FLASK: new Consumable(0, '-- -- -- Flasks -- -- --', sources.alchemy, [
+    {  },
+  ]),
+  SPACER_FOOD: new Consumable(0, '-- -- -- Food and Pet Buffs -- -- --', sources.alchemy, [
+    {  },
+  ]),
+  SPACER_CLASSIC: new Consumable(0, '-- Vanilla Consumes (Likely irrelevant) --', sources.alchemy, [
+    {  },
+  ]),
+  SPACER_PROTECTION: new Consumable(0, '-- -- -- Elemental Protections -- -- --', sources.alchemy, [
+    {  },
+  ]),
+  // classic starts here (with a few interjections)
   elixirOfGiants: new Consumable(9206, 'Elixir of Giants', sources.alchemy, [
     { reagent: reagents.sungrass, amount: 1 },
     { reagent: reagents.gromsblood, amount: 1 },
@@ -220,15 +261,30 @@ export default {
     { reagent: reagents.crystalVial, amount: 1 }
   ]),
 
+  majorArcaneProtectionPotion: new Consumable(22845, 'Major Arcane Protection Potion', sources.alchemy, [
+    { reagent: reagents.imbuedVial, amount: 5 },
+    { reagent: reagents.primalMana, amount: 1 },
+    { reagent: reagents.manaThistle, amount: 3 }
+  ]),
   greaterArcaneProtectionPotion: new Consumable(13461, 'Greater Arcane Protection Potion', sources.alchemy, [
     { reagent: reagents.crystalVial, amount: 1 },
     { reagent: reagents.dreamDust, amount: 1 },
     { reagent: reagents.dreamfoil, amount: 1 }
+  ]),  
+  majorFireProtectionPotion: new Consumable(28571, 'Major Fire Protection Potion', sources.alchemy, [
+    { reagent: reagents.imbuedVial, amount: 5 },
+    { reagent: reagents.primalFire, amount: 1 },
+    { reagent: reagents.manaThistle, amount: 3 }
   ]),
   greaterFireProtectionPotion: new Consumable(13457, 'Greater Fire Protection Potion', sources.alchemy, [
     { reagent: reagents.elementalFire, amount: 1 },
     { reagent: reagents.crystalVial, amount: 1 },
     { reagent: reagents.dreamfoil, amount: 1 }
+  ]),
+  majorFrostProtectionPotion: new Consumable(22846, 'Major Frost Protection Potion', sources.alchemy, [
+    { reagent: reagents.imbuedVial, amount: 5 },
+    { reagent: reagents.primalWater, amount: 1 },
+    { reagent: reagents.manaThistle, amount: 3 }
   ]),
   greaterFrostProtectionPotion: new Consumable(13456, 'Greater Frost Protection Potion', sources.alchemy, [
     { reagent: reagents.elementalWater, amount: 1 },
@@ -240,6 +296,11 @@ export default {
     { reagent: reagents.goldthorn, amount: 1 },
     { reagent: reagents.leadedVial, amount: 1 }
   ]),
+  majorNatureProtectionPotion: new Consumable(28573, 'Major Nature Protection Potion', sources.alchemy, [
+    { reagent: reagents.imbuedVial, amount: 5 },
+    { reagent: reagents.primalLife, amount: 1 },
+    { reagent: reagents.manaThistle, amount: 3 }
+  ]),
   greaterNatureProtectionPotion: new Consumable(13458, 'Greater Nature Protection Potion', sources.alchemy, [
     { reagent: reagents.elementalEarth, amount: 1 },
     { reagent: reagents.crystalVial, amount: 1 },
@@ -249,6 +310,11 @@ export default {
     { reagent: reagents.liferoot, amount: 1 },
     { reagent: reagents.leadedVial, amount: 1 },
     { reagent: reagents.stranglekelp, amount: 1 }
+  ]),
+  majorShadowProtectionPotion: new Consumable(22846, 'Major Shadow Protection Potion', sources.alchemy, [
+    { reagent: reagents.imbuedVial, amount: 5 },
+    { reagent: reagents.primalShadow, amount: 1 },
+    { reagent: reagents.manaThistle, amount: 3 }
   ]),
   greaterShadowProtectionPotion: new Consumable(13459, 'Greater Shadow Protection Potion', sources.alchemy, [
     { reagent: reagents.graveMoss, amount: 4 },

@@ -64,16 +64,24 @@ export default [
   new Craftable(consumables.elixirOfMajorMageblood, 0, { hidden: false }),
 
   // Flask
+  new Craftable(consumables.SPACER_FLASK, 0, { hidden: false }),
   new Craftable(consumables.flaskOfFortification, 0, { hidden: true }),
-  new Craftable(consumables.flaskOfRelentlessAssault, 0, { hidden: true }),
-  new Craftable(consumables.flaskOfPureDeath, 0, { hidden: true }),
+  new Craftable(consumables.flaskOfRelentlessAssault, 0, { hidden: false }),
+  new Craftable(consumables.flaskOfPureDeath, 0, { hidden: false }),
   new Craftable(consumables.flaskOfMightyRestoration, 0, { hidden: true }),
-  new Craftable(consumables.flaskOfBlindingLight, 0, { hidden: true }),
+  new Craftable(consumables.flaskOfBlindingLight, 0, { hidden: false }),
+  // Classic Flasks
+  new Craftable(consumables.flaskOfTheTitans, 0, { hidden: true }),
+  new Craftable(consumables.flaskOfSupremePower, 0, { hidden: false }),
+  new Craftable(consumables.flaskOfDistilledWisdom, 0, { hidden: false }),
+  new Craftable(consumables.flaskOfPetrification, 0, { hidden: true }),
+  new Craftable(consumables.flaskOfChromaticResistance, 0, { hidden: true }),
 
   // Restoration
+  new Craftable(consumables.SPACER_MISC, 0, { hidden: false }),
   new Craftable(consumables.superManaPotion, 0, { hidden: false }),
   new Craftable(consumables.elixirOfHealingPower, 0, { hidden: false }),
-  new Craftable(consumables.majorDreamlessSleepPotion, 0, { hidden: false }),
+  new Craftable(consumables.majorDreamlessSleepPotion, 0, { hidden: true }),
 
   // Weapon
   new Craftable(consumables.superiorWizardOil, 0, { hidden: false }),
@@ -84,13 +92,32 @@ export default [
   new Craftable(consumables.adamantiteWeightstone, 0, { hidden: true }),
   new Craftable(consumables.greaterWardOfShielding, 0, { hidden: true }),
 
+  // Protections
+  new Craftable(consumables.SPACER_PROTECTION, 0, { hidden: false }),
+  new Craftable(consumables.arcaneCauldron, 0, { hidden: false }),
+  new Craftable(consumables.fireCauldron, 0, { hidden: true }),
+  new Craftable(consumables.frostCauldron, 0, { hidden: true }),
+  new Craftable(consumables.natureCauldron, 0, { hidden: false }),
+  new Craftable(consumables.shadowCauldron, 0, { hidden: false }),
+  new Craftable(consumables.majorArcaneProtectionPotion, 0, { hidden: false }),
+  new Craftable(consumables.majorFireProtectionPotion, 0, { hidden: true }),
+  new Craftable(consumables.majorFrostProtectionPotion, 0, { hidden: true }),
+  new Craftable(consumables.majorNatureProtectionPotion, 0, { hidden: false }),
+  new Craftable(consumables.majorShadowProtectionPotion, 0, { hidden: false }),
+  new Craftable(consumables.greaterArcaneProtectionPotion, 0, { hidden: true }),
+  new Craftable(consumables.greaterFireProtectionPotion, 0, { hidden: true }),
+  new Craftable(consumables.greaterFrostProtectionPotion, 0, { hidden: true }),
+  new Craftable(consumables.greaterNatureProtectionPotion, 0, { hidden: true }),
+  new Craftable(consumables.greaterShadowProtectionPotion, 0, { hidden: true }),
+
   // Food
+  new Craftable(consumables.SPACER_FOOD, 0, { hidden: false }),
   new Craftable(consumables.fishermansFeast, 0, { hidden: false }),
   new Craftable(consumables.spicyCrawdad, 0, { hidden: false }),
   new Craftable(consumables.grilledMudfish, 0, { hidden: true }),
   new Craftable(consumables.warpBurger, 0, { hidden: false }),
-  new Craftable(consumables.spicyHotTalbuk, 0, { hidden: false }),
-  new Craftable(consumables.roastedClefthoof, 0, { hidden: false }),
+  new Craftable(consumables.spicyHotTalbuk, 0, { hidden: true }),
+  new Craftable(consumables.roastedClefthoof, 0, { hidden: true }),
   new Craftable(consumables.ravagerDog, 0, { hidden: false }),
   new Craftable(consumables.blackenedBasilisk, 0, { hidden: false }),
   new Craftable(consumables.crunchySerpent, 0, { hidden: false }),
@@ -105,19 +132,13 @@ export default [
 
   //CLASSIC SECTION --
     // Stat potions
+  new Craftable(consumables.SPACER_CLASSIC, 0, { hidden: false }),
     new Craftable(consumables.elixirOfGiants, 0, { hidden: true }),
-
     new Craftable(consumables.elixirOfTheMongoose, 0, { hidden: true }),
     new Craftable(consumables.elixirOfGreaterAgility, 0, { hidden: true }),
   
     // Magic protection potions
-    new Craftable(consumables.greaterArcaneProtectionPotion, 0, { hidden: false }),
-    new Craftable(consumables.greaterFireProtectionPotion, 0, { hidden: false }),
-    new Craftable(consumables.greaterFrostProtectionPotion, 0, { hidden: false }),
-    new Craftable(consumables.frostProtectionPotion, 0, { hidden: true }),
-    new Craftable(consumables.greaterNatureProtectionPotion, 0, { hidden: false }),
-    new Craftable(consumables.natureProtectionPotion, 0, { hidden: true }),
-    new Craftable(consumables.greaterShadowProtectionPotion, 0, { hidden: false }),
+    // in TBC section
   
     // Poison cures
     new Craftable(consumables.elixirOfPoisonResistance, 0, { hidden: true }),
@@ -129,7 +150,7 @@ export default [
     // Armor potions
     new Craftable(consumables.greaterStoneshieldPotion, 0, { hidden: false }),
     new Craftable(consumables.lesserStoneshieldPotion, 0, { hidden: true }),
-    new Craftable(consumables.elixirOfSuperiorDefense, 0, { hidden: false }),
+    new Craftable(consumables.elixirOfSuperiorDefense, 0, { hidden: true }),
     new Craftable(consumables.elixirOfGreaterDefense, 0, { hidden: true }),
   
     // Weapon enhancements
@@ -137,38 +158,38 @@ export default [
     new Craftable(consumables.denseSharpeningStone, 0, { hidden: false }),
     new Craftable(consumables.denseWeightstone, 0, { hidden: true }),
     new Craftable(consumables.frostOil, 0, { hidden: true }),
-    new Craftable(consumables.brilliantManaOil, 0, { hidden: false }),
+    new Craftable(consumables.brilliantManaOil, 0, { hidden: true }),
     new Craftable(consumables.lesserManaOil, 0, { hidden: true }),
-    new Craftable(consumables.brilliantWizardOil, 0, { hidden: false }),
+    new Craftable(consumables.brilliantWizardOil, 0, { hidden: true }),
     new Craftable(consumables.wizardOil, 0, { hidden: true }),
   
     // Restoration potions
-    new Craftable(consumables.majorManaPotion, 0, { hidden: true }),
-    new Craftable(consumables.majorHealingPotion, 0, { hidden: true }),
-    new Craftable(consumables.majorRejuvenationPotion, 0, { hidden: false }),
+    new Craftable(consumables.majorManaPotion, 0, { hidden: false }),
+    new Craftable(consumables.majorHealingPotion, 0, { hidden: false }),
+    new Craftable(consumables.majorRejuvenationPotion, 0, { hidden: true }),
   
     // Spellpower potions
     new Craftable(consumables.greaterArcaneElixir, 0, { hidden: false }),
     new Craftable(consumables.arcaneElixir, 0, { hidden: true }),
     new Craftable(consumables.elixirOfGreaterFirepower, 0, { hidden: false }),
-    new Craftable(consumables.elixirOfShadowPower, 0, { hidden: false }),
+    new Craftable(consumables.elixirOfShadowPower, 0, { hidden: true }),
   
     // Util potions
     new Craftable(consumables.limitedInvulnerabilityPotion, 0, { hidden: true }),
     new Craftable(consumables.freeActionPotion, 0, { hidden: false }),
     new Craftable(consumables.giftOfArthas, 0, { hidden: true }),
-    new Craftable(consumables.swiftnessPotion, 0, { hidden: true }),
+    new Craftable(consumables.swiftnessPotion, 0, { hidden: false }),
     new Craftable(consumables.mightyRagePotion, 0, { hidden: true }),
     new Craftable(consumables.elixirOfFortitude, 0, { hidden: true }),
-    new Craftable(consumables.majorTrollsBloodPotion, 0, { hidden: true }),
+    new Craftable(consumables.majorTrollsBloodPotion, 0, { hidden: false }),
     new Craftable(consumables.mightyTrollsBloodPotion, 0, { hidden: true }),
     new Craftable(consumables.magebloodPotion, 0, { hidden: true }),
   
     // Stat foods
     new Craftable(consumables.smokedDesertDumplings, 0, { hidden: false }),
-    new Craftable(consumables.dirgesKickinChimaerokChops, 0, { hidden: true }),
-    new Craftable(consumables.grilledSquid, 0, { hidden: false }),
-    new Craftable(consumables.runnTumTuberSurprise, 0, { hidden: false }),
+    new Craftable(consumables.dirgesKickinChimaerokChops, 0, { hidden: false }),
+    new Craftable(consumables.grilledSquid, 0, { hidden: true }),
+    new Craftable(consumables.runnTumTuberSurprise, 0, { hidden: true }),
     new Craftable(consumables.spicedChiliCrab, 0, { hidden: true }),
     new Craftable(consumables.monsterOmelet, 0, { hidden: true }),
     new Craftable(consumables.tenderWolfSteak, 0, { hidden: true }),
@@ -181,11 +202,7 @@ export default [
     new Craftable(consumables.poachedSunscaleSalmon, 0, { hidden: true }),
   
     // Flasks
-    new Craftable(consumables.flaskOfTheTitans, 0, { hidden: false }),
-    new Craftable(consumables.flaskOfSupremePower, 0, { hidden: false }),
-    new Craftable(consumables.flaskOfDistilledWisdom, 0, { hidden: false }),
-    new Craftable(consumables.flaskOfPetrification, 0, { hidden: true }),
-    new Craftable(consumables.flaskOfChromaticResistance, 0, { hidden: true }),
+    // in tbc section
   
     // Stat items
     new Craftable(consumables.roids, 0, { hidden: true }),
