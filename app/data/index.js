@@ -53,9 +53,9 @@ export default [
   // Battle Elixir
   new Craftable(consumables.elixirOfMajorAgility, 0, { hidden: false }),
   new Craftable(consumables.adeptsElixir, 0, { hidden: false }),
-  new Craftable(consumables.elixirOfMajorShadowPower, 0, { hidden: false }),
-  new Craftable(consumables.elixirOfMajorFrostPower, 0, { hidden: false }),
-  new Craftable(consumables.elixirOfMajorFirepower, 0, { hidden: false }),
+  new Craftable(consumables.elixirOfMajorShadowPower, 0, { hidden: true }),
+  new Craftable(consumables.elixirOfMajorFrostPower, 0, { hidden: true }),
+  new Craftable(consumables.elixirOfMajorFirepower, 0, { hidden: true }),
 
   // Guardian Elixir
   new Craftable(consumables.elixirOfMajorDefense, 0, { hidden: false }),
@@ -70,6 +70,7 @@ export default [
   new Craftable(consumables.flaskOfPureDeath, 0, { hidden: false }),
   new Craftable(consumables.flaskOfMightyRestoration, 0, { hidden: true }),
   new Craftable(consumables.flaskOfBlindingLight, 0, { hidden: false }),
+  new Craftable(consumables.flaskOfChromaticWonder, 0, { hidden: false }),
   // Classic Flasks
   new Craftable(consumables.flaskOfTheTitans, 0, { hidden: true }),
   new Craftable(consumables.flaskOfSupremePower, 0, { hidden: false }),
@@ -94,12 +95,12 @@ export default [
 
   // Protections
   new Craftable(consumables.SPACER_PROTECTION, 0, { hidden: false }),
-  new Craftable(consumables.arcaneCauldron, 0, { hidden: false }),
+  new Craftable(consumables.arcaneCauldron, 0, { hidden: true }),
   new Craftable(consumables.fireCauldron, 0, { hidden: true }),
   new Craftable(consumables.frostCauldron, 0, { hidden: true }),
   new Craftable(consumables.natureCauldron, 0, { hidden: false }),
   new Craftable(consumables.shadowCauldron, 0, { hidden: false }),
-  new Craftable(consumables.majorArcaneProtectionPotion, 0, { hidden: false }),
+  new Craftable(consumables.majorArcaneProtectionPotion, 0, { hidden: true }),
   new Craftable(consumables.majorFireProtectionPotion, 0, { hidden: true }),
   new Craftable(consumables.majorFrostProtectionPotion, 0, { hidden: true }),
   new Craftable(consumables.majorNatureProtectionPotion, 0, { hidden: false }),
@@ -118,7 +119,7 @@ export default [
   new Craftable(consumables.warpBurger, 0, { hidden: false }),
   new Craftable(consumables.spicyHotTalbuk, 0, { hidden: true }),
   new Craftable(consumables.roastedClefthoof, 0, { hidden: true }),
-  new Craftable(consumables.ravagerDog, 0, { hidden: false }),
+  new Craftable(consumables.ravagerDog, 0, { hidden: true }),
   new Craftable(consumables.blackenedBasilisk, 0, { hidden: false }),
   new Craftable(consumables.crunchySerpent, 0, { hidden: false }),
   new Craftable(consumables.poachedBluefish, 0, { hidden: false }),
@@ -155,7 +156,7 @@ export default [
   
     // Weapon enhancements
     new Craftable(consumables.elementalSharpeningStone, 0, { hidden: false }),
-    new Craftable(consumables.denseSharpeningStone, 0, { hidden: false }),
+    new Craftable(consumables.denseSharpeningStone, 0, { hidden: true }),
     new Craftable(consumables.denseWeightstone, 0, { hidden: true }),
     new Craftable(consumables.frostOil, 0, { hidden: true }),
     new Craftable(consumables.brilliantManaOil, 0, { hidden: true }),

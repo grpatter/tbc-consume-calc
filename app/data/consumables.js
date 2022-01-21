@@ -105,6 +105,12 @@ export default {
     { reagent: reagents.netherbloom, amount: 7 },
     { reagent: reagents.imbuedVial, amount: 1 }
   ]),
+  flaskOfChromaticWonder: new Consumable(42736, 'Flask of Chromatic Wonder', sources.alchemy, [
+    { reagent: reagents.felLotus, amount: 1 },
+    { reagent: reagents.dreamingGlory, amount: 7 },
+    { reagent: reagents.netherbloom, amount: 3 },
+    { reagent: reagents.imbuedVial, amount: 1 }
+  ]),
   adeptsElixir: new Consumable(28103, 'Adept\'s Elixir', sources.alchemy, [
     { reagent: reagents.dreamfoil, amount: 1 },
     { reagent: reagents.felweed, amount: 1 },
