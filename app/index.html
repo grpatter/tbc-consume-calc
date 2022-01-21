@@ -14,6 +14,7 @@
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/wow-tbc-classic-mats-calc.css" />
 
     {{content-for "head-footer"}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7C6SKGKNM9"></script>
     <script>
       if (window.location.hostname !== 'localhost') {
@@ -24,10 +25,10 @@
         gtag('config', 'G-7C6SKGKNM9');
       }
     </script>
+
   </head>
   <body class="bg-dark text-light">
     {{content-for "body"}}
-
     <script>
       const whTooltips = {
         colorLinks: false,
@@ -48,7 +49,6 @@
     <script src="https://wow.zamimg.com/widgets/power.js"></script>
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/wow-tbc-classic-mats-calc.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     {{content-for "body-footer"}}
   </body>

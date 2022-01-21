@@ -105,7 +105,7 @@ export default {
     { reagent: reagents.netherbloom, amount: 7 },
     { reagent: reagents.imbuedVial, amount: 1 }
   ]),
-  flaskOfChromaticWonder: new Consumable(42736, 'Flask of Chromatic Wonder', sources.alchemy, [
+  flaskOfChromaticWonder: new Consumable(33208, 'Flask of Chromatic Wonder', sources.alchemy, [
     { reagent: reagents.felLotus, amount: 1 },
     { reagent: reagents.dreamingGlory, amount: 7 },
     { reagent: reagents.netherbloom, amount: 3 },
@@ -215,7 +215,7 @@ export default {
     { reagent: reagents.primalMana, amount: 2 },
     { reagent: reagents.manaThistle, amount: 7 }
   ]),
-  fireCauldron: new Consumable(41500, 'Cauldron of Major Fire Protection', sources.alchemy, [
+  fireCauldron: new Consumable(32849, 'Cauldron of Major Fire Protection', sources.alchemy, [
     { reagent: reagents.felIronCasing, amount: 1 },
     { reagent: reagents.primalFire, amount: 2 },
     { reagent: reagents.manaThistle, amount: 7 }

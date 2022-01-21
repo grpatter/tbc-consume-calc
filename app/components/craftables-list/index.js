@@ -35,5 +35,7 @@ export default class CraftablesListComponent extends Component {
     } else {
       this.tracking.trackSetVisibilityMode();
     }
-  }
+  }  
 }
+
+
