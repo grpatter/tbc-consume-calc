@@ -30,7 +30,7 @@ export default class CalcComponent extends Component {
   @tracked shopList = [];
   @tracked isTwoColumns = store.get('twoColumns') ?? true;
   @tracked isWelcomeMessageVisible = store.get('welcomeMessage') ?? true;
-  @tracked isHeadsUpMessageVisible = store.get('headsUpMessage') ?? false;
+  @tracked isHeadsUpMessageVisible = store.get('headsUpMessage') ?? true;
   craftables = craftables;
 
   constructor () {
