@@ -80,7 +80,7 @@ export default class CalcComponent extends Component {
   }
 
   @action clearData (event) {
-    const ans = confirm('You are about to reset all the settings stored by the tool. Are you sure?');
+    const ans = confirm('You are about to reset all local settings (shown/hidden items). Are you sure?');
 
     event.preventDefault();
     if (ans) {

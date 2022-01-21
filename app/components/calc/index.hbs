@@ -10,14 +10,14 @@
     @visible={{this.isWelcomeMessageVisible}}
     @onDismiss={{this.hideWelcomeMessage}}
   >
-    <strong>Welcome!</strong> This is a simple calculator to know how many mats you need to gather/buy to get your raid consumes crafted! No more going back and forth to Wowhead to check the reagents for each recipe!
+    <strong>Welcome!</strong> This is a simple calculator to determine how many materials/reagents you need to gather/buy for your raid consumes.
   </Alert>
 
   <Alert
     @visible={{this.isHeadsUpMessageVisible}}
     @onDismiss={{this.hideHeadsUpMessage}}
   >
-    <strong>Heads-up!</strong> Some items are already hidden, just press the <Icon @name="config" /> button to select what consumables you want to see on the list. Every setting will be saved for your next visits!
+    <strong>Heads-up!</strong> Some items are already hidden, just press the <Icon @name="config" /> button to select what consumables you want to see.
   </Alert>
 
   <div class="row row-cols-1 {{if this.isTwoColumns "row-cols-md-2"}}">
