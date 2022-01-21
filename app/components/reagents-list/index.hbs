@@ -1,23 +1,15 @@
-<div class="card text-white bg-dark mb-3" style="width: 25rem;">
-  <div class="card-body">
-    <hr>
-    <h5 class="card-title">Reagents Needed</h5>
-    {{#if this.rows.length}}
-<ul class="list-group">
-  <div class="text-white">
+<h2 class="h6 mb-0 py-1">Mats needed</h2>
+{{#if this.rows.length}}
+<ul class="list-group mt-2">
   {{#each this.rows key="item.id" as |row|}}
   <ReagentsList::Row
     @item={{row.item}}
     @amount={{row.amount}}
   />
   {{/each}}
-  </div>
 </ul>
 {{else}}
 <Alert class="mt-2 text-center">
   Select some consumables to start filling this!
 </Alert>
 {{/if}}
-<hr>
-  </div>
-</div>
