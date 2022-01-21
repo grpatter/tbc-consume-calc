@@ -14,7 +14,16 @@
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/wow-tbc-classic-mats-calc.css" />
 
     {{content-for "head-footer"}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7C6SKGKNM9"></script>
+    <script>
+      if (window.location.hostname !== 'localhost') {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-7C6SKGKNM9');
+      }
+    </script>
   </head>
   <body class="bg-dark text-light">
     {{content-for "body"}}
