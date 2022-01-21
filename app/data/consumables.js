@@ -65,7 +65,7 @@ export default {
   ]),
   elixirOfDraenicWisdom: new Consumable(32067, 'Elixir of Draenic Wisdom', sources.alchemy, [
     { reagent: reagents.felweed, amount: 1 },
-    { reagent: reagents.terocone, amount: 118256 }
+    { reagent: reagents.terocone, amount: 1 }
   ]),
   destructionPotion: new Consumable(22839, 'Destruction Potion', sources.alchemy, [
     { reagent: reagents.nightmareVine, amount: 2 },
