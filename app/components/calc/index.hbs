@@ -1,6 +1,9 @@
 <div class="container main-container {{if this.isTwoColumns "main-container-layout-cols" "main-container-layout-list"}}">
   <header class="d-flex justify-content-between align-items-center">
     <h1 class="pt-3 h5">TBC Classic Mats Calc</h1>
+    <button type="button" class="btn btn-light btn-sm setting-btn d-none d-md-block" {{on "click" this.clearData}}>
+      <Icon @name="eraser" />
+    </button>
     <button type="button" class="btn btn-light btn-sm setting-btn d-none d-md-block" {{on "click" this.toggleLayout}}>
       <Icon @name={{if this.isTwoColumns "columns" "list"}} />
     </button>
@@ -31,6 +34,10 @@
     <div class="col mb-3">
       <ReagentsList
         @shopList={{this.shopList}}
+      />
+      <hr/>
+      <SelectionsList
+        @selectionsList={{this.selectionsList}}
       />
     </div>
   </div>

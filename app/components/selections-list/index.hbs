@@ -1,0 +1,22 @@
+
+  <div class="card text-white bg-dark mb-3 sticky-top sticky-offset" style="width: 25rem;">
+<div class="card-body">
+  <h2 class="h6 mb-0 py-1">Selected Consumes</h2>
+  <hr>
+  {{#if this.rows.length}}
+    <ul class="list-group mt-2">
+      {{#each this.rows key="item.id" as |row|}}
+        <SelectionsList::Row
+          @item={{row.item}}
+          @amount={{row.amount}}
+        />
+      {{/each}}
+    </ul>
+  {{else}}
+    <Alert class="mt-2 text-center">
+    Select some consumables!
+    </Alert>
+  {{/if}}
+  <hr>
+</div>
+</div>

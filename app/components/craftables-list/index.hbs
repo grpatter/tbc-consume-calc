@@ -1,11 +1,12 @@
 
-<div class="d-flex justify-content-between align-items-center">
-
+<div class="justify-content-between align-items-center">
   <div class="card text-white bg-dark mb-3" style="width: 25rem;">
-    <div class="card-body">
-      <button type="button" class="btn btn-light btn-sm list-title-btn w-10" data-toggle="tooltip" data-placement="top" title="Edit Visible/Hidden Consumes" {{on "click" this.toggleMode}}>
+      <button type="button" class="config-btn-repos btn btn-light btn-sm list-title-btn w-10" data-toggle="tooltip" data-placement="top" title="Edit Visible/Hidden Consumes" {{on "click" this.toggleMode}}>
         <Icon @name={{if this.isInputMode "config" "calculator"}} />
       </button>
+      
+
+    <div class="card-body consume-list-repos d-flex ">
       <ul class="list-group mt-2">
       {{#each this.rows key="item.id" as |row index|}}
       <CraftablesList::Row

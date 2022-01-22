@@ -6,7 +6,8 @@ module.exports = function () {
       'calculator',
       'cog',
       'columns',
-      'list'
+      'list',
+      'eraser'
     ],
     'free-brands-svg-icons': [
       'discord'

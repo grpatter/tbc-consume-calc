@@ -12,6 +12,14 @@ a {
   color: #f8f9fa !important;
 }
 
+.d-flex[style*="display:none"], .d-flex[style*="display: none"] {
+  display:none !important;
+}
+
+.sticky-offset {
+  top: 70% !important;
+}
+
 .w-10 {
   width: 14% !important;
 }
@@ -21,6 +29,16 @@ a {
 
 .wowhead-link {
   text-decoration: none;
+}
+
+.config-btn-repos{
+  margin-left: 80%;
+  margin-top: 1%;
+  padding-top: 2%;
+}
+
+.consume-list-repos{
+  margin-top: -3%;
 }
 
 .ad {
@@ -46,6 +64,7 @@ a {
   color: #b8c0c9;
   font-weight: 700;
   border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
 }
 .container.main-container {
   max-width: 400px;
@@ -90,7 +109,7 @@ footer .subfooter a {
 @import "node_modules/bootstrap/scss/_reboot";
 @import "node_modules/bootstrap/scss/_type";
  @import "node_modules/bootstrap/scss/_images";
-@import "node_modules/bootstrap/scss/_containers";
+// @import "node_modules/bootstrap/scss/_containers";
 @import "node_modules/bootstrap/scss/_grid";
 
 @import "node_modules/bootstrap/scss/_tables";
@@ -104,7 +123,7 @@ footer .subfooter a {
  @import "node_modules/bootstrap/scss/_nav";
  @import "node_modules/bootstrap/scss/_navbar";
  @import "node_modules/bootstrap/scss/_card";
- @import "node_modules/bootstrap/scss/_accordion";
+//  @import "node_modules/bootstrap/scss/_accordion";
  @import "node_modules/bootstrap/scss/_breadcrumb";
  @import "node_modules/bootstrap/scss/_pagination";
  @import "node_modules/bootstrap/scss/_badge";
@@ -118,6 +137,8 @@ footer .subfooter a {
  @import "node_modules/bootstrap/scss/_carousel";
  @import "node_modules/bootstrap/scss/_spinners";
 
-@import "node_modules/bootstrap/scss/_helpers";
+// @import "node_modules/bootstrap/scss/_helpers";
 
-@import "node_modules/bootstrap/scss/utilities/_api";
+// @import "node_modules/bootstrap/scss/utilities/_api";
+
+@import "ember-bootstrap/bootstrap";

@@ -7,7 +7,8 @@ const faIcons = {
   discord: ['fab', 'discord'],
   config: ['fas', 'cog'],
   columns: ['fas', 'columns'],
-  list: ['fas', 'list']
+  list: ['fas', 'list'],
+  eraser: ['fas', 'eraser']
 };
 
 export default class IconComponent extends Component {

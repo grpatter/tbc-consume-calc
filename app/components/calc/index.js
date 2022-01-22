@@ -25,9 +25,29 @@ class ShopList {
   }
 }
 
+class SelectionsList {
+  constructor () {
+    this.items = [];
+  }
+
+  add (newItem, amount) {
+    let i = this.items.find(({item}) => item.id === newItem.id);
+
+    if (!i) {
+      this.items.push({
+        item: newItem,
+        amount: amount
+      });
+    } else {
+      i.amount += amount;
+    }
+  }
+}
+
 export default class CalcComponent extends Component {
   @service tracking;
   @tracked shopList = [];
+  @tracked selectionsList = [];
   @tracked isTwoColumns = store.get('twoColumns') ?? true;
   @tracked isWelcomeMessageVisible = store.get('welcomeMessage') ?? true;
   @tracked isHeadsUpMessageVisible = store.get('headsUpMessage') ?? true;
@@ -40,14 +60,17 @@ export default class CalcComponent extends Component {
 
   refreshMatsList () {
     const shopList = new ShopList();
+    const selectionsList = new SelectionsList();
 
     craftables.forEach(({item, amount, hidden}) => {
       if (amount > 0 && !hidden) {
         item.reagents.forEach(req => shopList.add(req.reagent, req.amount * amount));
+        selectionsList.add(item, amount);
       }
     });
 
     this.shopList = shopList.items;
+    this.selectionsList = selectionsList.items;
   }
 
   @action handleCraftablesChange () {
