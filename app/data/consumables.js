@@ -250,6 +250,84 @@ export default {
   SPACER_PROTECTION: new Consumable(0, '-- -- -- Elemental Protections -- -- --', sources.alchemy, [
     {  },
   ]),
+  SPACER_ENGI: new Consumable(0, '-- -- -- Engineering -- -- --', sources.alchemy, [
+    {  },
+  ]),
+  SPACER_SUB_COMP: new Consumable(0, '-- -- -- Sub-Components -- -- --', sources.alchemy, [
+    {  },
+  ]),
+  sapperCharge: new Consumable(10646, 'Goblin Sapper Charge (1)', sources.engineering, [
+    { reagent: reagents.mageweaveCloth, amount: 1 },
+    { reagent: reagents.solidBlastingPowder, amount: 3 },
+    { reagent: reagents.unstableTrigger, amount: 1 }
+  ]),
+  superSapper: new Consumable(23827, 'Super Sapper Charge (2)', sources.engineering, [
+    { reagent: reagents.netherweaveCloth, amount: 4 },
+    { reagent: reagents.elementalBlastingPowder, amount: 1 },
+    { reagent: reagents.primalMana, amount: 1 }
+  ]),
+  felIronBomb: new Consumable(23736, 'Fel Iron Bomb (4)', sources.engineering, [
+    { reagent: reagents.felIronCasing, amount: 1 },
+    { reagent: reagents.felIronBolts, amount: 2 },
+    { reagent: reagents.elementalBlastingPowder, amount: 1 }
+  ]),
+  arcaneBomb: new Consumable(16040, 'Arcane Bomb (3)', sources.engineering, [
+    { reagent: reagents.delicateArcaniteConverter, amount: 1 },
+    { reagent: reagents.thoriumBar, amount: 3 },
+    { reagent: reagents.runecloth, amount: 1 }
+  ]),
+  goblinLandmine: new Consumable(4395, 'Goblin Land Mine (1)', sources.engineering, [
+    { reagent: reagents.heavyBlastingPowder, amount: 3 },
+    { reagent: reagents.ironBar, amount: 2 },
+    { reagent: reagents.gyrochronatom, amount: 1 }
+  ]),
+  adamantiteGrenade: new Consumable(23737, 'Adamantite Grenade (3)', sources.engineering, [
+    { reagent: reagents.adamantiteBar, amount: 4 },
+    { reagent: reagents.felIronBolts, amount: 2 },
+    { reagent: reagents.elementalBlastingPowder, amount: 1 }
+  ]),
+  repairBot: new Consumable(34113, 'Field Repair Bot 110G (5)', sources.engineering, [
+    { reagent: reagents.adamantiteBar, amount: 8 },
+    { reagent: reagents.felIronBolts, amount: 8 },
+    { reagent: reagents.khoriumPowerCore, amount: 1 }
+  ]),
+//subcomps
+  unstableTrig: new Consumable(10560, 'Unstable Trigger', sources.engineering, [
+    { reagent: reagents.mithrilBar, amount: 1 },
+    { reagent: reagents.mageweaveCloth, amount: 1 },
+    { reagent: reagents.solidBlastingPowder, amount: 1 }
+  ]),
+  eleBlastPowder: new Consumable(23781, 'Elemental Blasting Powder (4)', sources.engineering, [
+    { reagent: reagents.moteOfFire, amount: 1 },
+    { reagent: reagents.moteOfEarth, amount: 2 }
+  ]),
+  solidBlastPowder: new Consumable(10505, 'Solid Blasting Powder', sources.engineering, [
+    { reagent: reagents.solidStone, amount: 2 }
+  ]),
+  heavyBlastPowder: new Consumable(4377, 'Heavy Blasting Powder', sources.engineering, [
+    { reagent: reagents.heavyStone, amount: 1 }
+  ]),
+  felICasing: new Consumable(23782, 'Fel Iron Casing', sources.engineering, [
+    { reagent: reagents.felIronBar, amount: 3 }
+  ]),
+  felIBolts: new Consumable(23783, '(Handful of) Fel Iron Bolts', sources.engineering, [
+    { reagent: reagents.felIronBar, amount: 1 }
+  ]),
+  gyroThing: new Consumable(4389, 'Gyrochronatom', sources.engineering, [
+    { reagent: reagents.ironBar, amount: 1 },
+    { reagent: reagents.goldPowerCore, amount: 1 }
+  ]),
+  khoriumPwrCore: new Consumable(23786, 'Khorium Power Core', sources.engineering, [
+    { reagent: reagents.khoriumBar, amount: 3 },
+    { reagent: reagents.primalFire, amount: 1 }
+  ]),
+  goldPwrCore: new Consumable(10558, 'Gold Power Core (3)', sources.engineering, [
+    { reagent: reagents.goldBar, amount: 1 }
+  ]),
+  delicateArcConv: new Consumable(16006, 'Delicate Arcanite Converter', sources.engineering, [
+    { reagent: reagents.arcaniteBar, amount: 1 },
+    { reagent: reagents.ironwebSpiderSilk, amount: 1 }
+  ]),
   // classic starts here (with a few interjections)
   elixirOfGiants: new Consumable(9206, 'Elixir of Giants', sources.alchemy, [
     { reagent: reagents.sungrass, amount: 1 },

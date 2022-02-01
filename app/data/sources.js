@@ -16,5 +16,6 @@ export default {
   herbalism: new Source('Herbalism'),
   mining: new Source('Mining'),
   quest: new Source('Quest'),
-  vendor: new Source('Vendor')
+  vendor: new Source('Vendor'),
+  tailoring: new Source('Tailoring')
 };

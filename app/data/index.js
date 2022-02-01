@@ -126,6 +126,30 @@ export default [
   new Craftable(consumables.skullfishSoup, 0, { hidden: false }),
   new Craftable(consumables.goldenFishSticks, 0, { hidden: false }),
   new Craftable(consumables.juicyBearBurger, 0, { hidden: true }),
+  
+  // Engi
+  new Craftable(consumables.SPACER_ENGI, 0, { hidden: false }),
+  new Craftable(consumables.sapperCharge, 0, { hidden: false }),
+  new Craftable(consumables.superSapper, 0, { hidden: false }),
+  new Craftable(consumables.felIronBomb, 0, { hidden: false }),
+  new Craftable(consumables.arcaneBomb, 0, { hidden: false }),
+  new Craftable(consumables.goblinLandmine, 0, { hidden: false }),
+  new Craftable(consumables.adamantiteGrenade, 0, { hidden: true }),
+  new Craftable(consumables.repairBot, 0, { hidden: true }),
+
+  
+  // SubComps
+  new Craftable(consumables.SPACER_SUB_COMP, 0, { hidden: false }),
+  new Craftable(consumables.unstableTrig, 0, { hidden: false }),
+  new Craftable(consumables.gyroThing, 0, { hidden: true }),
+  new Craftable(consumables.khoriumPwrCore, 0, { hidden: true }),
+  new Craftable(consumables.goldPwrCore, 0, { hidden: true }),
+  new Craftable(consumables.delicateArcConv, 0, { hidden: true }),
+  new Craftable(consumables.felICasing, 0, { hidden: true }),
+  new Craftable(consumables.felIBolts, 0, { hidden: true }),
+  new Craftable(consumables.eleBlastPowder, 0, { hidden: false }),
+  new Craftable(consumables.solidBlastPowder, 0, { hidden: false }),
+  new Craftable(consumables.heavyBlastPowder, 0, { hidden: true }),
 
   // Pet Food
   new Craftable(consumables.kiblersBits, 0, { hidden: true }),

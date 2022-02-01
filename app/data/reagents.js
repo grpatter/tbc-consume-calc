@@ -64,6 +64,21 @@ export default {
 
   largeBrilliantShard: new Reagent(14344, 'Large Brilliant Shard', sources.enchanting),
   arcaneDust: new Reagent(22445, 'Arcane Dust', sources.enchanting),
+
+  
+  mageweaveCloth: new Reagent(4338, 'Mageweave Cloth', sources.tailoring),  
+  solidBlastingPowder: new Reagent(10505, 'Solid Blasting Powder', sources.engineering),  
+  heavyBlastingPowder: new Reagent(4377, 'Heavy Blasting Powder', sources.engineering),  
+  unstableTrigger: new Reagent(10560, 'Unstable Trigger', sources.engineering),
+  netherweaveCloth: new Reagent(21877, 'Netherweave Cloth', sources.tailoring),
+  elementalBlastingPowder: new Reagent(23781, 'Elemental Blasting Powder', sources.engineering),
+  delicateArcaniteConverter: new Reagent(16006, 'Delicate Arcanite Converter', sources.engineering),
+  ironwebSpiderSilk: new Reagent(14227, 'Ironweb Spider Silk', sources.drop),
+  arcaniteBar: new Reagent(12360, 'Arcanite Bar', sources.alchemy),
+  khoriumPowerCore: new Reagent(23786, 'Khorium Power Core', sources.engineering),
+  goldPowerCore: new Reagent(10558, 'Gold Power Core', sources.engineering),
+  gyrochronatom: new Reagent(4389, 'Gyrochronatom', sources.engineering),
+  felIronBolts: new Reagent(23783, 'Handful of Fel Iron Bolts', sources.engineering),
   
   //classic starts here --
   arthasTears: new Reagent(8836, 'Arthas\' Tears', sources.herbalism),
@@ -101,7 +116,7 @@ export default {
   heavyKodoMeat: new Reagent(12204, 'Heavy Kodo Meat', sources.drop),
   hugeVenomSac: new Reagent(19441, 'Huge Venom Sac', sources.drop),
   largeVenomSac: new Reagent(1288, 'Large Venom Sac', sources.drop),
-  runecloth: new Reagent(14047, 'Runecloth', sources.drop),
+  runecloth: new Reagent(14047, 'Runecloth', sources.tailoring),
   smallVenomSac: new Reagent(1475, 'Small Venom Sac', sources.drop),
   sandwormMeat: new Reagent(20424, 'Sandworm Meat', sources.drop),
   tenderCrabMeat: new Reagent(12206, 'Tender Crab Meat', sources.drop),
@@ -132,8 +147,17 @@ export default {
   winterSquid: new Reagent(13755, 'Winter Squid', sources.fishing),
 
   denseStone: new Reagent(12365, 'Dense Stone', sources.mining),
+  solidStone: new Reagent(7912, 'Solid Stone', sources.mining),
+  heavyStone: new Reagent(2838, 'Heavy Stone', sources.mining),
   mithrilOre: new Reagent(3858, 'Mithril Ore', sources.mining),
+  mithrilBar: new Reagent(3860, 'Mithril Bar', sources.mining),
+  felIronBar: new Reagent(23445, 'Fel Iron Bar', sources.mining),
   thoriumOre: new Reagent(10620, 'Thorium Ore', sources.mining),
+  thoriumBar: new Reagent(12359, 'Thorium Bar', sources.mining),
+  adamantiteBar: new Reagent(23446, 'Adamantite Bar', sources.mining),
+  khoriumBar: new Reagent(23449, 'Khorium Bar', sources.mining),
+  ironBar: new Reagent(3575, 'Iron Bar', sources.mining),
+  goldBar: new Reagent(3577, 'Gold Bar', sources.mining),
 
   dreamDust: new Reagent(11176, 'Dream Dust', sources.enchanting),
   illusionDust: new Reagent(16204, 'Illusion Dust', sources.enchanting),
